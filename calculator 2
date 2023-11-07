@@ -1,0 +1,21 @@
+int a;
+    int b;
+    char o;
+    //cout<<"enter 1st number - ";
+    cin>>a;
+    //cout<<endl<<"enter operation - ";
+    cin>>o;
+    //cout<<endl<<"enter 2st number - ";
+    cin>>b;
+    cout<<endl;
+    switch(o) {
+        case '+': cout<<a+b;
+                break;
+        case '-': cout<<a-b;
+                break;
+        case '*': cout<<a*b;
+                break;
+        case '/': cout<<a/b;
+                break;
+    }
+}
